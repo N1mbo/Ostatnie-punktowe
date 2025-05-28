@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OstatniePunktowe", "OstatniePunktowe\OstatniePunktowe.csproj", "{24AE5869-57B1-425B-AC3E-4071F0D08113}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OstatniePunktowe.Tests", "OstatniePunktowe.Tests\OstatniePunktowe.Tests.csproj", "{E47E004C-ED8E-43B2-AC2D-DE79FFAD008F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{24AE5869-57B1-425B-AC3E-4071F0D08113}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24AE5869-57B1-425B-AC3E-4071F0D08113}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24AE5869-57B1-425B-AC3E-4071F0D08113}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E47E004C-ED8E-43B2-AC2D-DE79FFAD008F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E47E004C-ED8E-43B2-AC2D-DE79FFAD008F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E47E004C-ED8E-43B2-AC2D-DE79FFAD008F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E47E004C-ED8E-43B2-AC2D-DE79FFAD008F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
