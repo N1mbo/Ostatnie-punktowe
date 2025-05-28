@@ -4,7 +4,7 @@ namespace OstatniePunktowe.DTOs;
 
 public class PatientDetailsResponseDTO
 {
-    public int idPatient { get; set; }
+    public int IdPatient { get; set; }
     public string FirstName { get; set; }
     public string LastName { get; set; }
     public DateTime Birthdate { get; set; }
@@ -14,7 +14,7 @@ public class PatientDetailsResponseDTO
 
 public class PrescriptionResponseDTO
 {
-    public int idPrescription { get; set; }
+    public int IdPrescription { get; set; }
     public DateTime Date { get; set; }
     public DateTime DueDate { get; set; }
     
@@ -24,15 +24,17 @@ public class PrescriptionResponseDTO
 
 public class DoctorBasicDTO
 {
-    public int idDoctor { get; set; }
+    public int IdDoctor { get; set; }
     public string FirstName { get; set; }
     public string LastName { get; set; }
 }
 
 public class MedicamentDetailsDTO
 {
-    public int idMedicament { get; set; }
+    public int IdMedicament { get; set; }
     public string Name { get; set; }
+    public string Description { get; set; }
+    public string Type { get; set; }
     public int Dose { get; set; }
     public string Details { get; set; }
 }

@@ -11,7 +11,7 @@ public class Medicament
     [Required]
     public string Description { get; set; }
     [Required]
-    public string Typ { get; set; }
+    public string Type { get; set; }
     
     public ICollection<PrescriptionMedicament> PrescriptionMedicaments { get; set; } = new List<PrescriptionMedicament>();
 }
