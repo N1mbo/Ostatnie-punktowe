@@ -13,5 +13,5 @@ public class Medicament
     [Required]
     public string Typ { get; set; }
     
-    public ICollection<Prescription_Medicament> PrescriptionMedicaments { get; set; } = new List<Prescription_Medicament>();
+    public ICollection<PrescriptionMedicament> PrescriptionMedicaments { get; set; } = new List<PrescriptionMedicament>();
 }

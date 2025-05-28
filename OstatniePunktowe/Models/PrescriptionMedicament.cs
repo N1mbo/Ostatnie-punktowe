@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Ostatnie_punktowe.Models;
 
-public class Prescription_Medicament
+public class PrescriptionMedicament
 {
     public int IdMedicament { get; set; }
     public Medicament Medicament { get; set; }

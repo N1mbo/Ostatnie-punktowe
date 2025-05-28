@@ -10,8 +10,8 @@ public class Doctor
     public string FirstName { get; set; }
     [Required]
     public string LastName { get; set; }
-    [Required]
-    public string Email { get; set; }
+    
+    public string? Email { get; set; }
     
     public ICollection<Prescription> Prescriptions { get; set; } = new List<Prescription>();
 }

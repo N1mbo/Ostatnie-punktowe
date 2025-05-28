@@ -12,8 +12,10 @@ public class Prescription
     public DateTime DueDate { get; set; }
     [Required]
     public int IdPatient { get; set; }
-    [Required]
+    public Patient Patient { get; set; }
+    [Required]  
     public int IdDoctor { get; set; }
+    public Doctor Doctor { get; set; }
     
-    public ICollection<Prescription_Medicament> PrescriptionMedicaments { get; set; } = new List<Prescription_Medicament>();
+    public ICollection<PrescriptionMedicament> PrescriptionMedicaments { get; set; } = new List<PrescriptionMedicament>();
 }
